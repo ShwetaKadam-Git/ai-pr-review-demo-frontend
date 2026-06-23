@@ -1,0 +1,15 @@
+{
+  "name": "ai-pr-review-demo-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/basic.test.js"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "jsdom": "^25.0.1"
+  }
+}

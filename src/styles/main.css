@@ -1,0 +1,89 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  color: #1a1a1a;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin-bottom: 4px;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.review-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.review-card:hover {
+  border-color: #888;
+}
+
+.review-card-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.review-card-meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.policy-badge {
+  background: #eee;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.review-card-date {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #999;
+}
+
+.back-button {
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.finding-row {
+  border-left: 3px solid #ccc;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+
+.severity-error { border-left-color: #d33; }
+.severity-warning { border-left-color: #e0a800; }
+.severity-info { border-left-color: #3a7; }
+
+.finding-severity {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+.finding-rule {
+  font-family: monospace;
+}
+
+.error {
+  color: #d33;
+}
